@@ -1,0 +1,15 @@
+---
+layout: "wrapper"
+---
+
+{% if page.title == "Welcome to Jekyll!"%}
+  This is the Jekyll post
+{% else %} 
+  This is not a Jekyll post
+{% endif %}
+
+<h2>{{page.title}}</h2>
+<h3>The author is {{page.author}}</h3>
+<hr>
+
+{{ content }}
